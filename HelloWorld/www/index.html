@@ -38,24 +38,36 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>Login Page</title>
 </head>
 
 <body>
     <div class="app">
-        <div id="facebook_connection" class="none">
-            <button onclick="app.login_facebook()">CONNECT WITH FACEBOOK</button><br>
+        <div id="facebook_connection" class="button_full_green button_full_shadow">
+            <button onclick="app.login_facebook()" class="button_full_text white">CONNECT WITH FACEBOOK</button><br>
         </div><br>
-        <div id="id_login" class="none">
-            <input type="text" name="name" value="Login"><br>
-            <input type="text" name="mdp" value="Password">
-        </div>
-
-        <a href="">CHANGE MDP</a><br><br>
+ 
+        <form id="id_login" class="none">
+            <div class="group">      
+                <input type="text" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label class="lightgray">Username</label>
+            </div>
+            <div class="group">      
+                <input type="password" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+            <label class="lightgray">Password</label>
+            </div>
+        </form>
+        <br>
+        <a class="white" href="">CHANGE MDP</a><br><br>
         
-        <div id="connection_buttons" class="none">
-            <button onclick="app.login()">CONNECT</button><br>
-            <button onclick="app.quit()">CANCEL</button>
+        <div id="connection_buttons" class="">
+            <button onclick="app.login()" class="button_line_green white button_full_text">CONNECT</button><br>
+            <button onclick="app.quit()" class="button_full_text lightgray">CANCEL</button>
         </div>
 
         <!--<div id="deviceready" class="blink">
