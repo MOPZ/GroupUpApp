@@ -44,37 +44,33 @@
 
 <body>
     <div class="app">
-        <div id="facebook_connection" class="button_full_green button_full_shadow">
-            <button onclick="app.login_facebook()" class="button_full_text white">CONNECT WITH FACEBOOK</button><br>
-        </div><br>
- 
-        <form id="id_login" class="none">
-            <div class="group">      
-                <input type="text" required>
-                <span class="highlight"></span>
-                <span class="bar"></span>
-                <label class="lightgray">Username</label>
-            </div>
-            <div class="group">      
-                <input type="password" required>
-                <span class="highlight"></span>
-                <span class="bar"></span>
-            <label class="lightgray">Password</label>
-            </div>
-        </form>
-        <br>
-        <a class="white" href="">CHANGE MDP</a><br><br>
-        
-        <div id="connection_buttons" class="">
-            <button onclick="app.login()" class="button_line_green white button_full_text">CONNECT</button><br>
-            <button onclick="app.quit()" class="button_full_text lightgray">CANCEL</button>
-        </div>
+        <div class="login">
+            <div id="facebook_connection" class="button_full_green button_full_shadow">
+                <button onclick="app.login_facebook()" class="button_full_text white">CONNECT WITH FACEBOOK</button><br>
+            </div><br>
 
-        <!--<div id="deviceready" class="blink">
-            <p class="event listening">Connecting to Device</p>
-            <p class="event received">Device is Ready</p>
+            <form id="id_login" class="none">
+                <div class="group">      
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label class="lightgray">Username</label>
+                </div>
+                <div class="group">      
+                    <input type="password" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                <label class="lightgray">Password</label>
+                </div>
+            </form>
+            <br>
+            <a class="white" href="">CHANGE MDP</a><br><br>
+
+            <div id="connection_buttons" class="">
+                <button onclick="app.login()" class="button_line_green white button_full_text">CONNECT</button><br>
+                <button onclick="app.quit()" class="button_full_text lightgray">CANCEL</button>
+            </div>
         </div>
-        -->
     </div>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
