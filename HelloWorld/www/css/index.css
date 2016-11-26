@@ -125,6 +125,13 @@ a:link, a:visited, a:hover, a:active{
     text-align:-webkit-center;
 }
 
+.logotype_small{
+    background-image:url(img/logo.png);
+    background-repeat:no-repeat;
+    width:155px;
+    height:25px;
+
+}
 
 /* FORM */
 
