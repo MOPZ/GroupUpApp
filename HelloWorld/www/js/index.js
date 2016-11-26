@@ -31,6 +31,9 @@ var app = {
     login: function(){
         alert("Hello! I am an alert box!");
     },
+    reset: function(){
+        alert("A mail has been send to you :) !");
+    },
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
