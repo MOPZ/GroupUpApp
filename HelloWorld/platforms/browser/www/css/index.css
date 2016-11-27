@@ -79,6 +79,12 @@ h1 {
     height:40px;
 }
 
+.button_full_facebook{
+  background: #158EFC;
+  border-radius:6px;
+  height:40px;
+}
+
 .button_full_shadow{
     box-shadow: 0 3px 4px 0 rgba(0,0,0,0.10);
 }
@@ -125,6 +131,13 @@ a:link, a:visited, a:hover, a:active{
     text-align:-webkit-center;
 }
 
+.logotype_small{
+    background-image:url(../img/logo.png);
+    background-repeat:no-repeat;
+    width:309px;
+    height:50px;
+    margin-bottom:10px;
+}
 
 /* FORM */
 
