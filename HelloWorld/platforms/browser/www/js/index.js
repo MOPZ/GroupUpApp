@@ -55,5 +55,9 @@ var app = {
 
     callAnothePage:function() {
         window.location = "homepage.html";
-    }
+    },
+
+    callLogin:function(){
+        window.location ="index.html";
+    },
 };
