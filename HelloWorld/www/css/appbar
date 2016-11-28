@@ -38,3 +38,26 @@
     top:2%;
     
 }
+
+.inline_buttons{
+    margin-top:7%;
+    font-size:14px;
+}
+
+.button1{
+    display:inline-block;
+    width:45%;
+    height:20px;
+    text-align:center;
+}
+
+.button2{
+    display:inline-block;
+    width:45%;
+    height:20px;
+    text-align:center;
+}
+
+.button_selected{
+    
+}
