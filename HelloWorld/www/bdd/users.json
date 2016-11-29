@@ -1,5 +1,5 @@
-{"employees":[
-    {"firstName":"John", "lastName":"Doe"},
-    {"firstName":"Anna", "lastName":"Smith"},
-    {"firstName":"Peter", "lastName":"Jones"}
+{"users":[
+    {"id":"1", "username":"Tangiers", "firstName":"Quentin", "lastName":"Cacciatore", "email":"quentin.cacciatore@gmail.com"},
+    {"id":"2","username":"Mopz", "firstName":"Paul", "lastName":"Maupas", "email":"paul.maupas@gmail.com"},
+    {"id":"3","username":"Strift", "firstName":"Laurent", "lastName":"Cazanove", "email":"laurent.cazanove@gmail.com"}
 ]}
