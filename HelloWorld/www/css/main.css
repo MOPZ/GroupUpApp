@@ -39,17 +39,6 @@ span.add_friend_text{
     vertical-align:middle;
 }
 
-/*
-            <div class="favorite_block">
-                <span class="favorite_block_title lightgray">Favorite</div>
-                <div class="player">
-                    <div class="player_photo"></div>
-                    <span class="player_name white">Pierre Martin</span>
-                    <span class="player_nick green">@PMartin</span><br>
-                    <span class="player_status_icon"></span>
-                    <span class="player_status green">is currently playing Overwatch.</span>
-                </div>
-            </div>*/
 
 span.favorite_block_title{
     font-weight:600;
