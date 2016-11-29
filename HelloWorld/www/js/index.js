@@ -60,4 +60,8 @@ var app = {
     callLogin:function(){
         window.location ="index.html";
     },
+
+    callAccount:function(){
+        window.location ="account.html";
+    },
 };

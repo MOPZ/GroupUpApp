@@ -49,34 +49,30 @@
 <body>
     <div class="app">
         <div class="homepage">
-            <div class="appbar_large">
-                <div onclick="app.callLogin()"class="icon_burger"></div><div class="appbar_title">Homepage</div><div onclick="app.callAccount()"class="icon_account"></div>
-                <div class="inline_buttons">
-                    <div class="button button_selected green">Contacts</div><div class="button lightgray">Overview</div>
+            <div class="appbar_small">
+                <div onclick="app.callLogin()"class="icon_burger"></div><div class="appbar_title">Account</div>
+            </div>
+            <div class="account_block">
+                <div class="account_photo"></div>
+                <div class="account_informations">
+                    <span class="account_name white">Pierre Martin</span><br>
+                    <span class="account_nick green">@PMartin</span><br><br>
+                    <span class="account_editpw lightgray">Edit password</span><br>
                 </div>
             </div>
-            <div class="add_friend_block lightgray" onclick="">
-                <div class="add_friend_icon"></div>
-                <span class="add_friend_text">Add a friend !</span>
-            </div>
-            <div class="favorite_block">
-                <span class="favorite_block_title lightgray">Favorite</div>
-                <div class="player_block">
-                    <div class="player_photo"></div>
-                    <div class="player_informations">
-                        <span class="player_name white">Pierre Martin</span><br>
-                        <span class="player_nick green">@PMartin</span><br>
-                        <div class="player_status_block">
-                            <span class="player_status_icon_playing"></span>
-                            <span class="player_status green">is currently playing Overwatch.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="button_playnow">
-                    <div class="icon_playnow"></div>
+
+            <div class="games_block">
+                <span class="games_title lightgray">Games</span>
+                <span class="games_add_icon"></span><br>
+                <span class="games_title_spacer"></span>
+
+                <div class="game_block">
+                    <span class="game_title white">Overwatch</span>
+                    <span class="game_icon"><span>
                 </div>
         </div>
     </div>
+
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
