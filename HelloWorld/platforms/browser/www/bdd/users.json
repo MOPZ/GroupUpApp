@@ -1,5 +1,28 @@
-{"users":[
-    {"id":"1", "username":"Tangiers", "password":"tangiers", "firstName":"Quentin", "lastName":"Cacciatore", "email":"quentin.cacciatore@gmail.com"},
-    {"id":"2", "username":"Mopz", "password":"mopz", "firstName":"Paul", "lastName":"Maupas", "email":"paul.maupas@gmail.com"},
-    {"id":"3", "username":"Strift", "password":"strift", "firstName":"Laurent", "lastName":"Cazanove", "email":"laurent.cazanove@gmail.com"}
+{
+	"users":[
+    
+    {
+    	"id":"1", 
+    	"userName":"Tangiers", 
+    	"password":"tangiers", 
+    	"firstName":"Quentin", 
+    	"lastName":"Cacciatore", 
+    	"email":"quentin.cacciatore@gmail.com"
+    },
+    {
+    	"id":"2", 
+    	"userName":"Mopz", 
+    	"password":"mopz", 
+    	"firstName":"Paul", 
+    	"lastName":"Maupas", 
+    	"email":"paul.maupas@gmail.com"
+    },
+    {
+    	"id":"3", 
+    	"userName":"Strift", 
+    	"password":"strift", 
+    	"firstName":"Laurent", 
+    	"lastName":"Cazanove", 
+    	"email":"laurent.cazanove@gmail.com"
+    }
 ]}
