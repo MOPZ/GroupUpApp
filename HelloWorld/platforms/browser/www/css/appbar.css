@@ -44,22 +44,13 @@
     font-weight:500;
 }
 
-.button1{
+.button{
     display:inline-block;
     width:50%;
     height:20px;
     text-align:center;
     padding-bottom:3%;
     padding-top:10%;
-}
-
-.button2{
-    display:inline-block;
-    width:50%;
-    height:20px;
-    text-align:center;
-    padding-top:10%;
-    padding-bottom:3%;
 }
 
 .button_selected{

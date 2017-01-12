@@ -8,6 +8,7 @@
   background: #158EFC;
   border-radius:6px;
   height:40px;
+  display:block;
 }
 
 .button_full_shadow{
@@ -15,7 +16,7 @@
 }
 
 .button_full_text{
-    padding-top:10px;
+    padding-top:12px;
     font-weight:500;
 }
 
@@ -24,7 +25,7 @@
     border-radius: 6px;
     background-color: rgba(0,0,0,0);
     width:100%;
-    height:40px;
+    height:20px;
     padding-bottom:10px;
 }
 
