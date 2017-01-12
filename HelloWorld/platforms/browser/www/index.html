@@ -50,8 +50,8 @@
     <div class="app">
         <div class="login">
             <div class="logotype_small"></div><br><br>
-            <div id="facebook_connection" class="button_full_facebook button_full_shadow">
-                <button onclick="app.login_facebook()" class="button_full_text white">CONNECT WITH FACEBOOK</button><br>
+            <div onclick="app.login_facebook()" id="facebook_connection" class="button_full_facebook button_full_shadow">
+                <div class="button_full_text white">CONNECT WITH FACEBOOK</div><br>
             </div><br>
 
             <form id="id_login" class="none">
@@ -69,11 +69,11 @@
                 </div>
             </form>
             <br>
-            <button onclick="app.reset()" class="button_full_text white">Reset Password</button><br><br>
+            <div onclick="app.reset()" class="button_full_text white">Reset Password</div><br><br>
 
             <div id="connection_buttons" class="">
-                <button onclick="app.login()" class="button_line_green white button_full_text">CONNECT</button><br>
-                <button onclick="app.callAnothePage()" class="button_full_text lightgray">CANCEL</button>
+                <div onclick="app.login()" class="button_line_green white button_full_text">CONNECT</div><br>
+                <div onclick="app.callAnothePage()" class="button_full_text lightgray">CANCEL</div>
             </div>
         </div>
     </div>

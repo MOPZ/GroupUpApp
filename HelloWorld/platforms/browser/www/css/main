@@ -1,0 +1,131 @@
+.login{
+    position:absolute;
+    width:80%;
+    left:10%;
+    top:30%;
+    text-align:-webkit-center;
+}
+
+.logotype_small{
+    background-image:url(../img/logo.png);
+    background-repeat:no-repeat;
+    width:309px;
+    height:50px;
+    margin-bottom:10px;
+}
+
+.add_friend_block{
+    width:90%;
+    height:56px;
+    font-size:16px;
+    font-weight:500;
+    padding-top:5%;
+    padding-left:10%;
+    padding-right:5%;
+    padding-bottom:5%;
+}
+
+.add_friend_icon{
+    background-image:url(../img/icon_add_friend.png);
+    width:56px;
+    height:56px;
+    display:inline-block;
+    margin-right:10%;
+}
+
+span.add_friend_text{
+    display:inline-block;
+    height:56px;
+    vertical-align:middle;
+}
+
+/*
+            <div class="favorite_block">
+                <span class="favorite_block_title lightgray">Favorite</div>
+                <div class="player">
+                    <div class="player_photo"></div>
+                    <span class="player_name white">Pierre Martin</span>
+                    <span class="player_nick green">@PMartin</span><br>
+                    <span class="player_status_icon"></span>
+                    <span class="player_status green">is currently playing Overwatch.</span>
+                </div>
+            </div>*/
+
+span.favorite_block_title{
+    font-weight:600;
+}
+
+.favorite_block{
+    width:100%;
+    margin-right:5%;
+    margin-left:5%;
+}
+
+.player_informations{
+    display:inline-block;
+    margin-left:5%;
+}
+
+.player_name{
+    font-size:16px;
+}
+
+.player_nick{
+    font-size:14px;
+}
+
+.player_status{
+    display:inline-block;
+    height:15px;
+    vertical-align:middle;
+}
+
+.player_status_icon_playing{
+    background-image:url(../img/player_status_icon_playing.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    display:inline-block;
+    width:13px;
+    height:13px;
+    margin-top:3%;
+}
+
+.player_status_icon_schedule{
+    background-image:url(../img/player_status_icon_schedule.png);
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:14px;
+    height:14px;
+    margin-top:3px;
+}
+
+
+
+.player_status_icon_noschedule{
+    background-image:url(../img/player_status_icon_noschedule.png);
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:15px;
+    height:15px;
+    margin-top:3px;
+}
+
+.player_block{
+    display:block;
+    margin-left:5%;
+    margin-top:3%;
+    margin-right:5%;
+}
+
+.player_photo{
+    display:inline-block;
+    width:54px;
+    height:54px;
+    border-radius:50%;
+    background: #5A5C61;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+
+.player_status_block{
+    display:inline-block;
+}
