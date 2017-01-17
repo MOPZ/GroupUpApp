@@ -57,7 +57,7 @@ var app = {
         window.location = "homepage.html";
     },
 
-    to_index:function(){
+    to_login:function(){
         window.location ="index.html";
     },
 
