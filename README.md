@@ -1,4 +1,4 @@
-# GroupUpApp
+# GroupUpApp-Master
 
 Comment run l'application en local avec Phonegap Desktop :
 
