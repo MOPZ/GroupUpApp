@@ -48,38 +48,36 @@
 
 <body>
     <div class="app">
-        <div class="login">
-            <div class="logotype_small"></div><br><br>
-            <div onclick="app.login_facebook()" id="facebook_connection" class="button_full_facebook button_full_shadow">
-                <div class="button_full_text white">CONNECT WITH FACEBOOK</div><br>
-            </div><br>
-
-            <form id="id_login" class="none">
-                <div class="group">      
-                    <input type="text" required>
-                    <span class="highlight"></span>
-                    <span class="bar"></span>
-                    <label class="lightgray">Username</label>
-                </div>
-                <div class="group">      
-                    <input type="password" required>
-                    <span class="highlight"></span>
-                    <span class="bar"></span>
-                <label class="lightgray">Password</label>
-                </div>
-            </form>
-            <div onclick="app.to_register()" class="button_full_text white">Register</div>
-            <div onclick="app.reset()" class="button_full_text lightgray">Reset Password</div><br>
-
-            <div id="connection_buttons" class="">
-                <div onclick="app.login()" class="button_line_green white button_full_text">CONNECT</div><br>
-                <div onclick="app.to_homepage()" class="button_full_text lightgray">CANCEL</div>
+        <div class="homepage">
+            <div class="appbar_small">
+                <div onclick="app.to_login()"class="icon_burger"></div><div class="appbar_title">Account</div>
             </div>
+            <div class="account_block">
+                <div class="account_photo"></div>
+                <div class="account_informations">
+                    <span class="account_name white">Pierre Martin</span><br>
+                    <span class="account_nick green">@PMartin</span><br><br>
+                    <span class="account_editpw lightgray">Edit password</span><br>
+                </div>
+            </div>
+
+            <div class="games_block">
+                <span class="games_title lightgray">Games</span>
+                <span class="games_add_icon"></span><br>
+                <span class="games_title_spacer"></span>
+
+                <div class="game_block">
+                    <span class="game_title white">Overwatch</span>
+                    <label class="switch">
+                      <input type="checkbox">
+                      <div class="slider round"></div>
+                    </label>
+                </div>
         </div>
     </div>
+
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript">
         app.initialize();
     </script>

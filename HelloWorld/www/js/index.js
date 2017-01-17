@@ -77,11 +77,18 @@ var app = {
         console.log('Received Event: ' + id);
     },
 
-    callAnothePage:function() {
+    to_homepage:function() {
         window.location = "homepage.html";
     },
 
-    callLogin:function(){
+    to_login:function(){
         window.location ="index.html";
+    },
+
+    to_account:function(){
+        window.location ="account.html";
+    },
+    to_register:function(){
+        window.location="register.html";
     },
 };

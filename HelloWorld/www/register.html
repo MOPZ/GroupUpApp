@@ -49,10 +49,7 @@
 <body>
     <div class="app">
         <div class="login">
-            <div class="logotype_small"></div><br><br>
-            <div onclick="app.login_facebook()" id="facebook_connection" class="button_full_facebook button_full_shadow">
-                <div class="button_full_text white">CONNECT WITH FACEBOOK</div><br>
-            </div><br>
+            <div class="title"><h1>Register</h1> </div></br></br>
 
             <form id="id_login" class="none">
                 <div class="group">      
@@ -62,24 +59,38 @@
                     <label class="lightgray">Username</label>
                 </div>
                 <div class="group">      
+                    <input type="email" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                <label class="lightgray">Email Address</label>
+                </div>
+                <div class="group">      
                     <input type="password" required>
                     <span class="highlight"></span>
                     <span class="bar"></span>
                 <label class="lightgray">Password</label>
                 </div>
-            </form>
-            <div onclick="app.to_register()" class="button_full_text white">Register</div>
-            <div onclick="app.reset()" class="button_full_text lightgray">Reset Password</div><br>
 
+                <div class="group">      
+                    <input type="password" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                <label class="lightgray">Confirmation</label>
+                </div>
+
+
+
+            </form>
             <div id="connection_buttons" class="">
-                <div onclick="app.login()" class="button_line_green white button_full_text">CONNECT</div><br>
-                <div onclick="app.to_homepage()" class="button_full_text lightgray">CANCEL</div>
+                </br>
+                <div onclick="app.to_homepage()" class="button_full_text button_full_green">REGISTER</div>
+                </br>
+                <div onclick="app.to_login()" class="button_full_text lightgray">CANCEL</div>
             </div>
         </div>
     </div>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript">
         app.initialize();
     </script>
