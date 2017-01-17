@@ -31,11 +31,20 @@ var app = {
     login: function(){
         
         $.ajax({
-            url : 'https://laurentcazanove.com/api/users?api_token=UeaLvXjYKjXlRwLHxbcPDDNGE3l4iDUkZyZYTgEk4SlkfooHLr71uW2wICy2',
-            type : 'GET',
+            type : 'POST',
+            url : 'https://laurentcazanove.com/api/register',
+            data : {
+                username: "adolf",
+                email : "adolf.hitler@email.com",
+                password : "adolfhitler",
+                password_confirmation : "adolfhitler"
+            },
             dataType : 'json',
-            success : function(response, statut){ // success est toujours en place, bien sûr !
-            console.log(response);
+
+            success : function(response, statut, data){ 
+                console.log(response);
+                console.log(statut);
+                console.log(data);
             },
 
             error : function(resultat, statut, erreur){
