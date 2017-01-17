@@ -602,6 +602,34 @@ module.exports = [
             "navigator.notification",
             "navigator"
         ]
+    },
+    {
+        "file": "plugins/com.telerik.plugins.nativepagetransitions/www/NativePageTransitions.js",
+        "id": "com.telerik.plugins.nativepagetransitions.NativePageTransitions",
+        "pluginId": "com.telerik.plugins.nativepagetransitions",
+        "clobbers": [
+            "window.plugins.nativepagetransitions"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-test-framework/www/tests.js",
+        "id": "cordova-plugin-test-framework.cdvtests",
+        "pluginId": "cordova-plugin-test-framework"
+    },
+    {
+        "file": "plugins/cordova-plugin-test-framework/www/jasmine_helpers.js",
+        "id": "cordova-plugin-test-framework.jasmine_helpers",
+        "pluginId": "cordova-plugin-test-framework"
+    },
+    {
+        "file": "plugins/cordova-plugin-test-framework/www/medic.js",
+        "id": "cordova-plugin-test-framework.medic",
+        "pluginId": "cordova-plugin-test-framework"
+    },
+    {
+        "file": "plugins/cordova-plugin-test-framework/www/main.js",
+        "id": "cordova-plugin-test-framework.main",
+        "pluginId": "cordova-plugin-test-framework"
     }
 ];
 module.exports.metadata = 
@@ -627,7 +655,9 @@ module.exports.metadata =
     "cordova-plugin-splashscreen": "3.2.2",
     "cordova-plugin-statusbar": "2.1.3",
     "cordova-plugin-vibration": "2.1.2",
-    "cordova-plugin-whitelist": "1.2.2"
+    "cordova-plugin-whitelist": "1.2.2",
+    "com.telerik.plugins.nativepagetransitions": "0.6.5",
+    "cordova-plugin-test-framework": "1.1.5-dev"
 }
 // BOTTOM OF METADATA
 });
