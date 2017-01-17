@@ -53,15 +53,18 @@ var app = {
         console.log('Received Event: ' + id);
     },
 
-    callAnothePage:function() {
+    to_homepage:function() {
         window.location = "homepage.html";
     },
 
-    callLogin:function(){
+    to_index:function(){
         window.location ="index.html";
     },
 
-    callAccount:function(){
+    to_account:function(){
         window.location ="account.html";
+    },
+    to_register:function(){
+        window.location="register.html";
     },
 };
