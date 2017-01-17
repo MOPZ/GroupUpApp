@@ -142,6 +142,8 @@ span.favorite_block_title{
     height:38px;
     margin-left:17px;
     margin-top:7px;
+<<<<<<< HEAD
+=======
 }
 
 
@@ -289,4 +291,5 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+>>>>>>> master
 }

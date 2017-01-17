@@ -29,7 +29,22 @@ var app = {
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     login: function(){
-        alert("Hello! I am an alert box!");
+        
+        $.ajax({
+            url : 'https://laurentcazanove.com/api/users?api_token=UeaLvXjYKjXlRwLHxbcPDDNGE3l4iDUkZyZYTgEk4SlkfooHLr71uW2wICy2',
+            type : 'GET',
+            dataType : 'json',
+            success : function(response, statut){ // success est toujours en place, bien sûr !
+            console.log(response);
+            },
+
+            error : function(resultat, statut, erreur){
+            console.log(resultat);
+            console.log(statut);
+            console.log(erreur);
+            }
+
+        });
     },
     reset: function(){
         alert("A mail has been send to you :) !");
